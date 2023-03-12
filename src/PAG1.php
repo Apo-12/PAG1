@@ -71,9 +71,12 @@ print_r($oddarr);
 and returns the string repeated the number of times specified by the integer.*/
 
 
-function repeatString($str , $n){ 
-     
-return str_repeat($str , $n );
+function repeatString($int , $str){ 
+     $x=" ";
+     for($i=0 ; $i<$str; $i++){
+   
+     $x=$x.$str;
+     }
 }
-echo repeatString ("hasan ", 8 ."<br>" );
+return $x;
 
