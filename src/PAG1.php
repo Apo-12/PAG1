@@ -74,7 +74,7 @@ and returns the string repeated the number of times specified by the integer.*/
 function repeatString($int , $str){ 
      $x=" ";
      for($i=0 ; $i<$str; $i++){
-   
+  
      $x=$x.$str;
      }
 }
